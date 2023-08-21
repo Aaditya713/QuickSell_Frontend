@@ -69,8 +69,8 @@ const App = () => {
       <header>
        
         <div className="cursor-container">
-          <button>Display:</button>
-          <span className="cursor" onClick={() => fetchData()}>{grouping}</span>
+          <span>Display:</span>
+          {/* <span className="cursor" onClick={() => fetchData()}>{grouping}</span> */}
           
 
           <span>Grouping:</span>
